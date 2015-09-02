@@ -1,4 +1,9 @@
 # MKT Producer
-Message Producer. Produces Messages for performance testing of the Message Consumer.
 
-Tool created in order to test the all infrastructure.
+Produces Messages for testing all infrastructure. It uses a list containing some countries and corresponding currencies. The tool generates messages by getting randomly two of these countries and setting random values with random rates.
+
+# Run
+
+```bash
+node mkt-producer/index.js
+```
